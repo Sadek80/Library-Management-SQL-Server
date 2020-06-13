@@ -6,6 +6,8 @@
 
 CREATE DATABASE Library_System;
 
+USE [Library_System];
+
 /*
 ================================
 	2. Creating the Tables

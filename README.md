@@ -11,11 +11,9 @@ Library Management System is a .SQL file that contains:
  9. Delete Statements 
 ## Project setup
 ```
-Run the "CREAT DATABASE Library_System;"
+Open the file with database management system
 ```
+
 ```
-For SQL Server switch the availavle databases from master to Library_System
-```
-```
-Running the rest of the code line by line
+Running the code line by line
 ```
