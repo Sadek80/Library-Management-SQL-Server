@@ -241,7 +241,7 @@ SELECT SUM(Available_Copies) FROM Books
 
 SELECT * FROM Books WHERE Available_Copies IN (SELECT MAX(Available_Copies) FROM Books  );
 
-/* 4.How to Find the book that has maximum number of copies? */
+/* 4. How to Find the book that has minimum number of copies? */
 
 SELECT * FROM Books WHERE Available_Copies IN (SELECT MIN(Available_Copies) FROM Books  );
 
@@ -445,7 +445,7 @@ DELETE FROM Books WHERE Author_Id = 2;
 
 DELETE FROM Authors WHERE Nationality = 'American';
 
-/* 4. Deleting The Borrow information that the librarian of id = 2 has done*/
+/* 4. Deleting The Borrow information that the librarian of id = 1 has done*/
 
 DELETE FROM Borrow_Information WHERE Librarian_Id = 1;
 
